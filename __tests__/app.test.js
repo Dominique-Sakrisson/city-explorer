@@ -92,7 +92,7 @@ describe('app routes', () => {
       const actual = mungeReviewResponse(mungie);
       expect(actual).toEqual(expectation);
     });
-    test('should return some munged review data', async() => {
+    test('should return some munged weather data', async() => {
 
       const expectation = [
         
@@ -143,7 +143,7 @@ describe('app routes', () => {
       expect(actual).toEqual(expectation);
     });
 
-    test('should return some munged review data', async() => {
+    test('should return some munged location data', async() => {
 
       const expectation = 
       {
